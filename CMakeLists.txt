@@ -5,5 +5,10 @@ enable_testing()
 set(script_name "wrun.cmake")
 project("$script_name")
 # Test
-add_test(NAME "main-test" COMMAND "${CMAKE_COMMAND}" -P
-                                  "${CMAKE_SOURCE_DIR}/${script_name}" "https://raw.githubusercontent.com/thezhe/template.cmake/v1.1.1/template.cmake")
+add_test(
+    NAME "main-test"
+    COMMAND
+        "${CMAKE_COMMAND}" -P "${CMAKE_SOURCE_DIR}/${script_name}"
+        # cmake-lint: disable=C0301
+        "https://raw.githubusercontent.com/thezhe/template.cmake/v1.1.1/template.cmake"
+)

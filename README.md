@@ -16,7 +16,8 @@ Run a URL as a CMake script
 - URL points to a valid, downloadable CMake script
 
 ### Dependencies
-- curl
+
+- cURL
 
 ## Versioning
 
