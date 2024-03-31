@@ -1,3 +1,5 @@
+# https://github.com/thezhe/wrun.cmake/tree/v0.1.0
+
 # Settings
 cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
 # CLI

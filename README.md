@@ -1,11 +1,11 @@
 # wrun.cmake
 
-Run a URL as a CMake script
+CMake meta-script that runs a URL as a script
 
 ## Features
 
 - `CMakeLists.txt` - test driver
-- `wrun.cmake` - entrypoint
+- `wrun.cmake` - entrypoint (vendoring recommended)
 
 ## Usage
 
@@ -13,7 +13,8 @@ Run a URL as a CMake script
 
 ### Preconditions
 
-- URL points to a valid, downloadable CMake script
+- URL points to a valid, downloadable target CMake script
+- Target script takes zero arguments
 
 ### Dependencies
 
