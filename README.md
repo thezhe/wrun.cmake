@@ -1,15 +1,22 @@
-# template.cmake
+# wrun.cmake
 
-Template for a [CMake script](https://cmake.org/cmake/help/latest/manual/cmake.1.html#run-a-script) that accepts environment variables but not arguments (i.e., [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration))
+Run a URL as a CMake script
 
 ## Features
 
 - `CMakeLists.txt` - test driver
-- `template.cmake` - entrypoint
+- `wrun.cmake` - entrypoint
 
 ## Usage
 
-`cmake -P template.cmake`
+`cmake -P wrun.cmake <url>`
+
+### Preconditions
+
+- URL points to a valid, downloadable CMake script
+
+### Dependencies
+- curl
 
 ## Versioning
 
