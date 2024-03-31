@@ -1,0 +1,7 @@
+{
+    "name": "${localWorkspaceFolderBasename}",
+    "image": "ghcr.io/thezhe/devimagepp:main",
+    "containerEnv": {
+        "TEST": "TEST" // Required for CTest
+    }
+}
