@@ -1,10 +1,12 @@
+# Test driver
+
 # Settings
 cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
 enable_testing()
 # Project
 set(script_name "wrun.cmake")
 project("$script_name")
-# Test
+#[[ Test ]]
 # cmake-lint: disable=C0301
 add_test(
     NAME "main-test"

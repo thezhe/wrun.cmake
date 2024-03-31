@@ -4,7 +4,6 @@ CMake meta-script that runs a URL as a script
 
 ## Features
 
-- `CMakeLists.txt` - test driver
 - `wrun.cmake` - entrypoint (vendoring recommended)
 
 ## Usage
